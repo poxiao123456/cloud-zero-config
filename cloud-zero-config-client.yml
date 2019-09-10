@@ -4,10 +4,22 @@ spring:
 ---
 spring:
   profiles: dev
+
 config:
-  version: dev
+  version: dev_version
+
 ---
 spring:
   profiles: test
+
 config:
-  version: test
+  version: test_version
+
+---
+spring:
+  profiles: prod
+
+config:
+  version: prod_version
+
+
