@@ -1,2 +1,14 @@
+spring:
+ profile:
+  active: dev
+---
+spring:
+ profile: dev
 config:
- version: 1.0
+ version: dev
+---
+spring:
+ profile: test
+config:
+ version: test
+ 
